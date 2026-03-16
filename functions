@@ -1,0 +1,61 @@
+# def add():
+#     n1=int(input("enter the value of n1: "))
+#     n2=int(input("Enter the value of n2: "))
+#     print("Add= ",n1+n2)
+
+# add()
+
+#how to return multiple value
+# def add():
+#     n1=int(input("enter the value of n1: "))
+#     n2=int(input("Enter the value of n2: "))
+#     sum=n1+n2
+#     sub=n1-n2
+#     div=n1/n2
+#     return sum,sub,div
+
+# result =add()
+# print(result)
+
+# 1.positional argument
+
+# def personalInfo(fname,lname):
+#     print("First Name= ",fname)
+#     print("Last Name= ",lname)
+
+# personalInfo("Mayank","Thakur")
+
+# 2.keyword argument
+
+# def personalInfo(fname,lname):
+#     print("First Name= ",fname)
+#     print("Last Name= ",lname)
+# fname="Mayank"
+# lname="Thakur"
+# personalInfo(fname,lname)
+
+# 3.default argument
+
+# def cityName(city):
+#     print(city)
+
+# cityName("Mumbai")
+# cityName("delhi")
+# cityName("nagpur")
+
+#keyword variable argument
+# def studentnames(*name):
+#     print(name)
+
+# studentnames("mayank","Rahul","rudram","armaan")
+
+#mylist = [3,5,3,2,1]
+
+#search the element 2
+def searchElement(target):
+   for i in range(len(mylist)):
+        if target == mylist[i]
+             print("Element found at index number = ", i)
+
+searchElement(2)
+
